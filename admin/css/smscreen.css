@@ -1,0 +1,18 @@
+@media screen and (max-width:500px) {
+
+    .input-details .image-input {
+        border-bottom: solid 2px #2530c9;
+        background: linear-gradient(rgba(83, 5, 184, 0.89), rgb(82, 5, 184));
+        max-width: 200px;
+        flex-shrink: 0;
+        flex-basis: 200px;
+        min-height: 200px;
+        position: relative;
+        display: inline-block;
+
+
+
+
+    }
+    
+}

@@ -1,0 +1,71 @@
+@media screen and (min-width:800px) {
+
+    main {
+        /* scroll-snap-type: mandatory; */
+    }
+
+    ._profile_details {
+        /* max-width:450px; */
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        display: flex;
+
+    }
+
+    .hero-section {
+        height: 100vh;
+        box-sizing: border-box;
+        justify-content: space-around;
+    }
+
+    ._profile_details_container {}
+
+    ._profile_details_container .profile_name_text {
+        flex-basis: 60%;
+        font-size: 3rem;
+        height: max-content;
+        height: 150px;
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        place-items: center;
+
+        position: relative;
+    }
+
+    .menu_icon {
+        display: none;
+    }
+
+    .typewriter_text {
+        width: max-content;
+        font-size: 2.7rem;
+    }
+
+
+    .profile-image {
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .veiwbox .image_veiw_box {
+        flex-direction: row-reverse;
+        max-width: 97vw;
+    }
+    .related_art .div_wrapper {
+        column-count:3;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* margin: 10px; */
+    }
+    .related_art .gallery-show-card{
+        margin: 10px;
+    }
+}

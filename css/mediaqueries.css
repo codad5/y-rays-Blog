@@ -1,0 +1,39 @@
+@media screen and (min-width: 0px) and (max-width: 755px) {
+    .mainboard__container {
+        max-width: 755px;
+        column-count: 2;
+    }
+
+}
+
+@media screen and (min-width: 756px) and (max-width: 1007px) {
+    .mainboard__container {
+        max-width: 1007px;
+        column-count: 3;
+    }
+
+}
+
+@media screen and (min-width: 1008px) and (max-width: 1259px) {
+    .mainboard__container {
+        max-width: 1259px;
+        column-count: 3;
+    }
+
+}
+
+@media screen and (min-width: 1260px) and (max-width: 1551px) {
+    .mainboard__container {
+        max-width: 1551px;
+        column-count: 4;
+    }
+
+}
+
+@media screen and (min-width: 1552px) and (max-width: 1763px) {
+    .mainboard__container {
+        max-width: 1763px;
+        column-count: 5;
+    }
+
+}

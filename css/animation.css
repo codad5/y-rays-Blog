@@ -1,0 +1,12 @@
+@keyframes typewriterFlicker {
+    from {
+        border-right: solid 3px #fff;
+
+    }
+
+    to {
+        border-right: solid 3px transparent;
+
+
+    }
+}

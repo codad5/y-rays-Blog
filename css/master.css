@@ -1,0 +1,162 @@
+:root {
+    --current-theme: #fff;
+    --current-theme-inverse: #555;
+    /* --color-main: #02126e;
+     */
+    --color-main: #121314;
+    --color-main-2: #1b1d1f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'ZCOOL KuaiLe',
+        cursive;
+    transition: all .7s;
+    box-sizing: border-box;
+
+
+}
+
+.anoynmous {
+    visibility: hidden;
+}
+
+*::selection {
+    background: white;
+    color: black;
+    color-scheme: light;
+    border-color: #121314 !important;
+}
+
+html {
+    background: var(--current-theme);
+}
+
+
+html,
+body,
+section,
+header,
+footer,
+.full-width,
+main {
+    width: 100vw;
+    position: relative;
+}
+
+
+.parent-full-width {
+    width: 100% !important;
+}
+
+main {
+    /* background: rgb(28, 6, 128); */
+    height: 100vh;
+    background: var(--color-main-2);
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+
+}
+
+section {
+    scroll-snap-align: start;
+
+}
+
+.hero-section {
+    /* background:linear-gradient(#031ba6c5, #031ba6ce, #031Ca6),
+    url("../img/pexels-fauxels-3183132.jpg"); */
+    /* background: linear-gradient(#111111c5, #37373ace, #121314),
+    url(../img/texture-1909992.jpg); */
+
+    background-size: cover;
+    height: 400px;
+    padding-top: 60px;
+
+
+}
+
+.fixed_bg {
+    background: linear-gradient(#111111c5, #37373ace, #121314),
+        url(../img/texture-1909992.jpg);
+    height: 100vh;
+    position: fixed;
+    width: 99vw;
+    /* filter: ; */
+
+
+}
+
+.fixed_bg::backdrop {}
+
+.to-be-protected {
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.to-be-protected img {
+    /* object-fit: cover; */
+    object-fit: fill;
+}
+
+.to-be-protected .image-cover {
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+/* to  style footer {} */
+
+footer {}
+
+.footer-cnt {
+    background: whitesmoke;
+    height: 300px;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute;
+    bottom: 0; */
+
+}
+
+.footer-footer {
+    width: 100%;
+    flex-basis: 25%;
+    background: var(--color-main-2);
+}
+
+.footer-header {
+    width: 100%;
+    flex-basis: 75%;
+    position: relative;
+}
+.footer-header path{
+    fill:var(--color-main-2);
+}
+.footer_contact_me{
+    font-size :2rem;
+    font-optical-sizing: 1rem;
+
+}
+
+.social_links_cnt{
+    width : 100%;
+    /* max-width: 400px; */
+    display: flex;
+    height:60px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    
+}
